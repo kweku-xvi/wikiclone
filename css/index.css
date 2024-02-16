@@ -31,7 +31,8 @@
 .input_search{
     display: flex;
     align-items: center;
-    background-color: rgb(218, 219, 226);
+    background-color: #36c;
+    color: white;
     padding: 0px 10px;
     height: 28px;
 }
