@@ -555,7 +555,7 @@ body {
 .nav_manu{
   display: flex;
   gap: 32px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .nav_manu li{
@@ -567,9 +567,11 @@ body {
   color: rgb(75, 75, 75);
 }
 
-.nav_right{
+.nav_right, .nav_right div{
   display: flex;
   gap: 14px;
+  color: white;
+  cursor: default;
 }
 
 .span{
