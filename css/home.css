@@ -1,7 +1,13 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
 body {
     font-size: 13px;
     font-family: 'Roboto', sans-serif;
     line-height: 1.5;
+    
   }
   
   a {
@@ -9,7 +15,7 @@ body {
     color: #36c;
   }
   
-  header {
+  .header {
     margin: 60px auto 5px;
     text-align: center;
     width: 270px;
@@ -18,23 +24,24 @@ body {
   .sprite {
     background-image: url('https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-46c49284.svg');
     display: inline-block;
+    color: black;
   }
   
-  header .title {
+  .header .title {
     margin: 12px auto;
     font-weight: bold;
     font-family: 'Lora', serif;
   }
   
-  header .title .title_image {
+  .header .title .title_image {
     display: inline-block;
     width: 176px;
     height: 32px;
     background-position: 0 -254px;
-    color: transparent;
+    /* color: transparent; */
   }
   
-  header .title .title_text {
+  .header .title .title_text {
     display: inline-block;
     font-size: 15px;
     font-family: 'Lora', serif;
@@ -515,3 +522,44 @@ body {
     text-decoration: underline;
   }
   
+  .logo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: #424344;
+  }
+
+  header{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    height: 75px;
+    border-bottom: 0.8px solid rgba(158, 158, 160, 0.42);
+  }
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 54px;
+  gap: 38px;
+  width: 100%;
+}
+.nav_manu{
+  display: flex;
+  gap: 32px;
+  font-weight: 500;
+}
+
+.nav_manu li{
+  list-style: none;
+  text-decoration: none;
+}
+.nav_manu li a{
+  font-size: 15px;
+  color: rgb(75, 75, 75);
+}
+
+.nav_right{
+  display: flex;
+  gap: 14px;
+}
