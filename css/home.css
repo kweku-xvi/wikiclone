@@ -16,7 +16,7 @@ body {
   }
   
   .header {
-    margin: 60px auto 5px;
+    margin: 55px auto 5px;
     text-align: center;
     width: 270px;
   }
@@ -81,7 +81,7 @@ body {
     width: 200px;
     position: absolute;
     top: 64px;
-    left: 194px;
+    left: 180px;
   }
   
   ul .article_item .item_language {
@@ -152,9 +152,13 @@ body {
   }
   
   .search {
-    margin: 4px auto 20px;
+    margin: 0px auto 20px;
     line-height: 21px;
     width: 540px;
+  }
+
+  .search{
+    margin-top: -34px;
   }
   
   .search fieldset {
@@ -175,7 +179,7 @@ body {
   .search_box .box_input {
     height: 26px;
     width: 100%;
-    padding: 8px 40px 8px 12px;
+    padding: 5px 40px 5px 0px;
     border: 1px solid #a2a9b1;
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
@@ -242,7 +246,7 @@ body {
     border: 1px solid #36c;
     padding: 8px 16px;
     position: relative;
-    min-height: 44px;
+    height: 100%;
     min-width: 16px;
     line-height: normal;
     border-radius: 0 2px 2px 0;
@@ -528,6 +532,10 @@ body {
     color: #424344;
   }
 
+  .logo a{
+    color: #424344;
+  }
+
   header{
     display: flex;
     /* align-items: center; */
@@ -562,4 +570,8 @@ body {
 .nav_right{
   display: flex;
   gap: 14px;
+}
+
+.span{
+  color: blue;
 }
