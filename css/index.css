@@ -63,7 +63,7 @@
 .img_wrapper{
     position: relative;
     width: 100%;
-    height: 57.5vh;
+    height: 52vh;
     /* border: 1px solid; */
 }
 .img_wrapper::after {
