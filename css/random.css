@@ -1,0 +1,27 @@
+.recent_post{
+    margin-left: 0px;
+}
+
+.recent_wrapper{
+    margin: 30px 20px;
+    padding: 0px;
+}
+
+.cards{
+    position: relative;
+    border: 1px solid black;
+}
+
+.edit{
+    display: flex;
+    align-self: flex-start;
+    text-wrap: nowrap;
+    right: 16px;
+    font-size: 14px;
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
