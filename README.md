@@ -1,3 +1,3 @@
 # WikiClone
 
-A Wikipedia-Like encyclopedia built with HTML and CSS.
+A Wikipedia-like encyclopedia built with HTML and CSS.
